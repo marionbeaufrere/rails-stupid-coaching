@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<div class = "container">
+<h1> Stupid Coaching </h1>
+<div class = "question">
+  <h3> <%= @question %> </h3>
+  <p><em> "- You" </em></p>
+</div>
+<div class = "answer">
+  <h3> <%= @answer %> </h3>
+  <p><em>"- Your coach" </em></p>
+</div>
+<div class="btn btn-primary">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
+</div>
